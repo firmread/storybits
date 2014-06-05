@@ -2,11 +2,12 @@
 <widget id="com.firmread.storybits" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>StoryBits</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        an educational storytelling apps that help make your multimedia narrative crafting experience become much more delightful.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
+    <author email="firmread@me.com" href="http://firmread.com">
         Apache Cordova Team
     </author>
+    <preference name="DisallowOverscroll" value="true"/>
     <content src="index.html" />
     <access origin="*" />
 </widget>

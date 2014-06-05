@@ -1,0 +1,207 @@
+@-ms-viewport
+{
+	width: 320px;
+}
+
+@-webkit-viewport
+{
+	width: 320px;
+}
+
+@-o-viewport
+{
+	width: 320px;
+}
+
+@-moz-viewport
+{
+	width: 320px;
+}
+
+@viewport
+{
+	width: 320px;
+}
+
+.html
+{
+	background-color: #50949F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 320px;
+	min-height: 460px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #50949F;
+}
+
+#pu1349
+{
+	width: 0.01px;
+	position: relative;
+}
+
+#u1349
+{
+	z-index: 3;
+	width: 320px;
+	height: 188px;
+	background: transparent url("../images/u1349-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(74%, #50949F),to(rgba(255, 255, 255, 0.13)));
+	background: -webkit-linear-gradient(top,#50949F 74%,rgba(255, 255, 255, 0.13) );
+	background: -moz-linear-gradient(top,#50949F 74%,rgba(255, 255, 255, 0.13) );
+	background: -ms-linear-gradient(top,#50949F 74%,rgba(255, 255, 255, 0.13) );
+	background: -o-linear-gradient(top,#50949F 74%,rgba(255, 255, 255, 0.13) );
+	background: linear-gradient(to bottom,#50949F 74%,rgba(255, 255, 255, 0.13) );
+	border-style: none;
+	border-color: transparent;
+	opacity: 0.4;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+	filter: alpha(opacity=40);
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1354-11
+{
+	z-index: 4;
+	width: 287px;
+	min-height: 126px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 0px;
+	font-family: muli, sans-serif;
+	font-weight: 300;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 35px;
+	left: 14px;
+}
+
+#u1354-4,#u1354-6,#u1354-8
+{
+	font-size: 30px;
+	padding: 25px 20px 10px;
+}
+
+#u1354-9
+{
+	font-size: 36px;
+	padding: 25px 20px 10px;
+}
+
+#u4348
+{
+	z-index: 29;
+	width: 268px;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	margin-left: 28px;
+	margin-top: 4px;
+	position: relative;
+}
+
+#u1338-8
+{
+	z-index: 15;
+	width: 296px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-left: 10px;
+	margin-top: 9px;
+	position: relative;
+}
+
+#u1338-4
+{
+	font-size: 20px;
+	line-height: 24px;
+	font-family: muli, sans-serif;
+	font-weight: 400;
+	padding: 7px 20px 1px;
+}
+
+#u1338-2,#u1338-6
+{
+	line-height: 17px;
+	font-family: muli, sans-serif;
+	font-weight: 300;
+	padding: 7px 20px 1px;
+}
+
+#u1427
+{
+	z-index: 23;
+	width: 170px;
+	margin-left: 75px;
+	margin-top: 21px;
+	position: relative;
+}
+
+#u1346
+{
+	z-index: 24;
+	width: 37px;
+	height: 170px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #5E9CA6;
+	background-color: rgba(80, 148, 159, 0.92);
+	opacity: 0.83;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=83)";
+	filter: alpha(opacity=83);
+	-webkit-transform: matrix(0,-1,1,0,-66,104);
+	-ms-transform: matrix(0,-1,1,0,-66,104);
+	-o-transform: matrix(0,-1,1,0,-66,104);
+	transform: matrix(0,-1,1,0,-66,104);
+	margin-bottom: -66px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: -59px;
+	left: 67px;
+	-pie-background: rgba(80, 148, 159, 0.92);
+}
+
+#u1426-4
+{
+	z-index: 25;
+	width: 170px;
+	min-height: 35px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 0px;
+	font-family: muli, sans-serif;
+	font-weight: 300;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1426-2
+{
+	padding: 25px 20px 10px;
+}
+
+#u1417
+{
+	z-index: 2;
+	width: 320px;
+	height: 460px;
+	border-style: none;
+	border-color: transparent;
+	position: relative;
+	top: -424px;
+	margin-bottom: -424px;
+	background: #FFFFFF url("../images/tintm5.jpg") no-repeat left top;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

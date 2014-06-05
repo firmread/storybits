@@ -1,405 +1,112 @@
 <!DOCTYPE html>
-<!-- saved from url=(0039)http://storybits.org/index.php/version/ -->
-<html lang="en">
-<script id="tinyhippos-injected">
-    if (window.top.ripple) {
-        window.top.ripple("bootstrap").inject(window, document);
-    }
-</script>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="format-detection" content="telephone=no" />
-    <meta http-equiv="Content-Type" content="text/html">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-
-    <title>StoryBits</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/bootstrap-theme.css">
-    <link rel="stylesheet" href="./css/jquery-ui.css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-    <div class="container">
-        <div id="screen-1" class="mobile-screen" style="display: block;">
-            <div style="margin-bottom: 100px;margin-top: 50px">
-                <!-- <h1>STORYBITS</h1> -->
-                <img src="./img/storybits10.png" style="width:20em; margin-left: auto; margin-right: auto;"/>
-            </div>
-            <form class="form-inline" role="form">
-                <div class="form-group">
-                    <label for="projectCode">Enter Your Project Code</label>
-                    <input type="text" class="form-control" id="projectCode" placeholder="project code here">
+<html class="html">
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+        <meta name="description" content="an educational storytelling apps that help make your multimedia narrative crafting experience become much more delightful"/>
+        <meta name="generator" content="7.4.30.244"/>
+        <title>Home&#45; StoryBits</title>
+        <meta name="viewport" content="width=320"/>
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/site_global.css?3983832653"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css?3918945823" id="pagesheet"/>
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?3862841743"/>
+        <![endif]-->
+        <!-- Other scripts -->
+        <script type="text/javascript">
+            document.documentElement.className += ' js';
+            var __adobewebfontsappname__ = "muse";
+        </script>
+        <!-- JS includes -->
+        <script type="text/javascript">
+            document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/muli:n3,i3:all.js" type="text/javascript">\x3C/script>');
+        </script>
+        <!--custom head HTML-->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <script type="text/javascript" src="cordova.js"></script>
+    </head>
+    <body>
+        <div class="clearfix" id="page">
+            <!-- group -->
+            <div class="clearfix browser_width grpelem" id="u1428">
+                <!-- group -->
+                <div class="clip_frame grpelem" id="u3238">
+                    <!-- image -->
+                    <img class="block" id="u3238_img" src="images/redtri2.png" alt="" width="268" height="76"/>
                 </div>
-                <button type="submit" class="btn btn-default" id="screen-1-submit">Enter</button>
-            </form>
-        </div>
-        <div id="screen-2" class="mobile-screen row" style="display: none;">
-            <button type="button" class="btn btn-default info"><span class="glyphicon glyphicon-info-sign" style="color: rgb(31, 104, 214)"></span></button>
-            <div class="container">
-                <h1>Dinosaur Extinction</h1>
-                <p>Create a story that explains how the dinosaurs went extinct.</p>
             </div>
-            <table class="table table-striped">
-                <tbody>
-                    <tr>
-                        <td>Setting:<p><span class="glyphicon media-icon glyphicon-volume-up" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-facetime-video" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-camera" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-comment" style="color: #333333;"></span></p></td>
-                        <td>Describe the environment in which your story takes place.</td>
-                        <td><button type="button" class="btn btn-default" id="setting-go"><span class="glyphicon glyphicon-chevron-right"></span></button></td>
-                    </tr>
-                    <tr>
-                        <td>Characters:<p><span class="glyphicon media-icon glyphicon-volume-up" style="color: #333333;"></span><span class="glyphicon media-icon glyphicon-facetime-video" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-camera" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-comment" style="color: #333333;"></span></p></td>
-                        <td>Introduce 2 characters who will be a part of your story.</td>
-                        <td><button type="button" class="btn btn-default" id="characters-go"><span class="glyphicon glyphicon-chevron-right"></span></button></td>
-                    </tr>
-                    <tr>
-                        <td>Rising Action:<p><span class="glyphicon media-icon glyphicon-volume-up" style="color: #333333;"></span><span class="glyphicon media-icon glyphicon-facetime-video" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-camera" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-comment" style="color: #333333;"></span></p></td>
-                        <td>Describe the events at that time period through the eyes of your characters.</td>
-                        <td><button type="button" class="btn btn-default" id="rising-action-go"><span class="glyphicon glyphicon-chevron-right"></span></button></td>
-                    </tr>
-                    <tr>
-                        <td>Climax:<p><span class="glyphicon media-icon glyphicon-volume-up" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-facetime-video" style="color: #333333;"></span><span class="glyphicon media-icon glyphicon-camera" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-comment" style="color: #333333;"></span></p></td>
-                        <td>The main event in your story. Choose one of the theories we discussed and present it here.</td>
-                        <td><button type="button" class="btn btn-default" id="climax-go"><span class="glyphicon glyphicon-chevron-right"></span></button></td>
-                    </tr>
-                    <tr>
-                        <td>Falling Action:<p><span class="glyphicon media-icon glyphicon-volume-up" style="color: #333333;"></span><span class="glyphicon media-icon glyphicon-facetime-video" style="color: #419641;"></span><span class="glyphicon media-icon glyphicon-camera" style="color: #333333;"></span><span class="glyphicon media-icon glyphicon-comment" style="color: #333333;"></span></p></td>
-                        <td>What is the final outcome of the story.</td>
-                        <td><button type="button" class="btn btn-default" id="falling-action-go"><span class="glyphicon glyphicon-chevron-right"></span></button></td>
-                    </tr>
-                </tbody>
-            </table>
-            <button type="submit" class="btn btn-default center-block" id="main-submit">Upload for Editing</button>
-        </div>
-        <div id="screen-3" class="mobile-screen" style="padding-left: 40px; margin-top: 98px; display: none;">
-            <button type="button" class="btn btn-default info" data-toggle="modal" data-target="#infoHelp"><span class="glyphicon glyphicon-info-sign" style="color: rgb(31, 104, 214)"></span></button>
-            <button type="button" class="btn btn-default back-button back-to-screen2"><p class="back-text">Setting</p></button>
-            <div>
-                <h3>Collect each of these bits:</h3>
-            </div>
-            <div id="audio-button" class="capture-section">
-                <button type="button" class="btn btn-primary" id="capture-audio">AUDIO</button>
-            </div>
-            <div id="video-button" class="capture-section">
-                <button type="button" class="btn btn-success" id="capture-video">VIDEO</button>
-            </div>
-            <div id="photos-button" class="capture-section">
-                <button type="button" class="btn btn-info" id="capture-photos">PHOTOS</button>
-            </div>
-            <div id="text-button" class="capture-section">
-                <button type="button" class="btn btn-warning" id="capture-text">TEXT</button>
-            </div>
-        </div>
-
-
-        <!-- <div id="screen-4" class="mobile-screen" style="padding-left: 40px; margin-top: 98px; display: none;">
-            <button type="button" class="btn btn-default info" data-toggle="modal" data-target="#infoHelp"><span class="glyphicon glyphicon-info-sign" style="color: rgb(31, 104, 214)"></span></button>
-            <button type="button" class="btn btn-default back-button back-to-screen3"><p class="back-text">Setting</p></button>
-            <div>
-                <h3>CAPTURE AUDIO CLIPS</h3>
-                <p>Use these tools to build your story.</p>
-            </div>
-            <div class="media-display">
-                <img src="./img/stock-footage-audio-waveform-loop.jpg">
-            </div>
-            <div class="control-buttons">
-                <p><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-record" style="color: red"></span></button>&nbsp;<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span></button></p>
-            </div>
-            <div class="tag-area">
-            </div>
-        </div>
-        <div id="screen-5" class="mobile-screen" style="padding-left: 40px; margin-top: 98px;">
-            <button type="button" class="btn btn-default info" data-toggle="modal" data-target="#infoHelp"><span class="glyphicon glyphicon-info-sign" style="color: rgb(31, 104, 214)"></span></button>
-            <button type="button" class="btn btn-default back-button back-to-screen3"><p class="back-text">Setting</p></button>
-            <div>
-                <h3>CAPTURE VIDEO CLIPS</h3>
-                <p>Use these tools to build your story.</p>
-            </div>
-            <div class="media-display">
-                <img src="./img/recording_preview_590x300.jpg">
-            </div>
-            <div class="control-buttons">
-                <p><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-record" style="color: red"></span></button>&nbsp;<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span></button></p>
-            </div>
-        </div>
-        <div id="screen-6" class="mobile-screen" style="padding-left: 40px; margin-top: 98px;">
-            <button type="button" class="btn btn-default info" data-toggle="modal" data-target="#infoHelp"><span class="glyphicon glyphicon-info-sign" style="color: rgb(31, 104, 214)"></span></button>
-            <button type="button" class="btn btn-default back-button back-to-screen3"><p class="back-text">Setting</p></button>
-            <div>
-                <h3>CAPTURE IMAGES</h3>
-                <p>Use these tools to build your story.</p>
-            </div>
-            <div class="media-display">
-                <img src="./img/dinosaurs-at-museum-of-natural-history-new-york.jpg">
-            </div>
-            <div class="control-buttons">
-                <p><button type="button" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-unchecked" style="color: red"></span></button>&nbsp;<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-play"></span></button></p>
-            </div>
-        </div> -->
-
-
-        <div id="screen-7" class="mobile-screen" style="padding-left: 40px; margin-top: 98px;">
-            <button type="button" class="btn btn-default info" data-toggle="modal" data-target="#infoHelp"><span class="glyphicon glyphicon-info-sign" style="color: rgb(31, 104, 214)"></span></button>
-            <button type="button" class="btn btn-default back-button back-to-screen3"><p class="back-text">Setting</p></button>
-            <div>
-                <h3>WRITE SOME TEXT</h3>
-                <p>Use these tools to build your story.</p>
-            </div>
-            <form role="form" style="margin-bottom: 20px;">
-                <div class="form-group">
-                    <textarea class="form-control" rows="3"></textarea>
+            <form class="form-grp clearfix grpelem" id="widgetu118" method="post" enctype="multipart/form-data" action="scripts/form-u118.php">
+                <!-- none box -->
+                <div class="fld-grp clearfix grpelem" id="widgetu136" data-required="true" data-type="email">
+                    <!-- none box -->
+                    <div class="fld-input NoWrap grpelem" id="u138">
+                        <!-- state-based BG images -->
+                        <input class="wrapped-input" type="text" spellcheck="false" id="widgetu136_input" name="Email" tabindex="1"/>
+                    </div>
                 </div>
-                <button class="btn btn-default">Submit</button>
+                <input class="submit-btn NoWrap grpelem" id="u119-13" type="submit" value="" tabindex="3"/><!-- state-based BG images -->
+                <div class="fld-grp clearfix grpelem" id="widgetu147" data-required="true">
+                    <!-- none box -->
+                    <label class="fld-label actAsDiv clearfix grpelem" id="u151-4" for="widgetu147_input">
+                        <!-- content -->
+                        <span class="actAsPara">Project code</span>
+                    </label>
+                    <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u149-4">
+                        <!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu147_input" name="custom_U147" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu147_prompt" for="widgetu147_input"><span class="actAsPara">Enter your project code</span></label>
+                    </span>
+                </div>
+                <img class="grpelem" id="u135" alt="Looking for project" src="images/blank.gif"/><!-- state-based BG images -->
+                <img class="grpelem" id="u134" alt="The server encountered an error." src="images/blank.gif"/><!-- state-based BG images -->
+                <img class="grpelem" id="u141" alt="Now Loading" src="images/blank.gif"/><!-- state-based BG images -->
             </form>
-            <!-- <div class="keyboard">
-            <img src="./img/css_wide_keyboard.png">
-        </div> -->
-    </div>
-    <div id="screen-8" class="mobile-screen">
-        <h1>Your project has been uploaded</h1>
-        <h3>Edit your projects @<br> storybits.org/edit</h3>
-        <h3>Your access word is '<span class="text-danger">banana</span>'</h3>
-    </div>
-
-    <div class="info-popup" style="display: none;">
-        <button type="button" class="close-popup">×</button>
-        <h4>Information and Help</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="./js/jquery.min.js"></script>
-<script src="./js/jquery-ui.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./js/bootstrap.min.js"></script>
-
-
-
-
-
-
-<!-- Maxim's wireframe awesomeness -->
-<script>
-var animateDelay = 300;
-var screen2sect;
-$(document).ready(function(){
-    $('#screen-1-submit').click(function(e){
-        e.preventDefault();
-        $('#screen-1').fadeOut(animateDelay, function(){
-            $('#screen-2').fadeIn(animateDelay);
-        });
-    });
-
-    $('#setting-go').click(function(e){
-        e.preventDefault();
-        console.log(e);
-        $('#screen-2').hide("slide", { direction: "left"}, animateDelay, function(){
-            $('#screen-3').show("slide", { direction: "rigth"}, animateDelay);
-            screen2sect = 'Setting'
-            $('.back-button').html('<p class="back-text">'+screen2sect+'</p>');
-        });
-
-    });
-    $('#characters-go').click(function(e){
-        e.preventDefault();
-        $('#screen-2').hide("slide", { direction: "left"}, animateDelay, function(){
-            $('#screen-3').show("slide", { direction: "rigth"}, animateDelay);
-            screen2sect = 'Characters'
-            $('.back-button').html('<p class="back-text">'+screen2sect+'</p>');
-        });
-    });
-    $('#rising-action-go').click(function(e){
-        e.preventDefault();
-        $('#screen-2').hide("slide", { direction: "left"}, animateDelay, function(){
-            $('#screen-3').show("slide", { direction: "rigth"}, animateDelay);
-            screen2sect = 'Rising Action'
-            $('.back-button').html('<p class="back-text">'+screen2sect+'</p>');
-        });
-    });
-    $('#climax-go').click(function(e){
-        e.preventDefault();
-        $('#screen-2').hide("slide", { direction: "left"}, animateDelay, function(){
-            $('#screen-3').show("slide", { direction: "rigth"}, animateDelay);
-            screen2sect = 'Climax'
-            $('.back-button').html('<p class="back-text">'+screen2sect+'</p>');
-        });
-    });
-    $('#falling-action-go').click(function(e){
-        e.preventDefault();
-        $('#screen-2').hide("slide", { direction: "left"}, animateDelay, function(){
-            $('#screen-3').show("slide", { direction: "rigth"}, animateDelay);
-            screen2sect = 'Falling Action'
-            $('.back-button').html('<p class="back-text">'+screen2sect+'</p>');
-        });
-    });
-
-    $('#capture-audio').click(function(e){
-        e.preventDefault();
-        // $('#screen-3').hide("slide", { direction: "left"}, animateDelay, function(){
-        //     $('#screen-4').show("slide", { direction: "rigth"}, animateDelay);
-        //     $('.back-button').html('<p class="back-text">AUDIO</p>');
-        // });
-
-        // capture callback
-        var captureSuccess = function(mediaFiles) {
-            var i, path, len;
-            for (i = 0, len = mediaFiles.length; i < len; i += 1) {
-                path = mediaFiles[i].fullPath;
-                // do something interesting with the file
-            }
-        };
-
-        // capture error callback
-        var captureError = function(error) {
-            navigator.notification.alert('Error code: ' + error.code, null, 'Capture Error');
-        };
-
-        // start audio capture
-        navigator.device.capture.captureAudio(captureSuccess, captureError, {limit:1});
-
-    });
-    $('#capture-video').click(function(e){
-        e.preventDefault();
-        // $('#screen-3').hide("slide", { direction: "left"}, animateDelay, function(){
-        //     $('#screen-5').show("slide", { direction: "rigth"}, animateDelay);
-        //     $('.back-button').html('<p class="back-text">VIDEO</p>');
-        // });
-
-
-
-        // capture callback
-        var captureSuccess = function(mediaFiles) {
-            var i, path, len;
-            for (i = 0, len = mediaFiles.length; i < len; i += 1) {
-                path = mediaFiles[i].fullPath;
-                // do something interesting with the file
-            }
-        };
-
-        // capture error callback
-        var captureError = function(error) {
-            navigator.notification.alert('Error code: ' + error.code, null, 'Capture Error');
-        };
-
-        // start video capture
-        navigator.device.capture.captureVideo(captureSuccess, captureError, {limit:1});
-
-
-
-
-    });
-    $('#capture-photos').click(function(e){
-        e.preventDefault();
-
-        // navigator.camera.getPicture(onSuccess, onFail, { quality: 50, destinationType: Camera.DestinationType.FILE_URI });
-        //
-        // function onSuccess(imageURI) {
-        //     var image = document.getElementById('myImage');
-        //     image.src = imageURI;
-        // }
-        //
-        // function onFail(message) {
-        //     alert('no photo captured');
-        // }
-
-
-        // capture callback
-        var captureSuccess = function(mediaFiles) {
-            var i, path, len;
-            for (i = 0, len = mediaFiles.length; i < len; i += 1) {
-                path = mediaFiles[i].fullPath;
-                // do something interesting with the file
-            }
-        };
-
-        // capture error callback
-        var captureError = function(error) {
-            navigator.notification.alert('Error code: ' + error.code, null, 'Capture Error');
-        };
-
-        // start image capture
-        navigator.device.capture.captureImage(captureSuccess, captureError, {limit:1});
-
-
-
-        // $('#screen-3').hide("slide", { direction: "left"}, animateDelay, function(){
-        //     $('#screen-6').show("slide", { direction: "rigth"}, animateDelay);
-        //     $('.back-button').html('<p class="back-text">PHOTO</p>');
-        // });
-    });
-    $('#capture-text').click(function(e){
-        e.preventDefault();
-        $('#screen-3').hide("slide", { direction: "left"}, animateDelay, function(){
-            $('#screen-7').show("slide", { direction: "rigth"}, animateDelay);
-            $('.back-button').html('<p class="back-text">TEXT</p>');
-        });
-    });
-
-    $('#main-submit').click(function(e){
-        e.preventDefault();
-        $('#screen-2').hide("slide", { direction: "left"}, animateDelay, function(){
-            $('#screen-8').show("slide", { direction: "rigth"}, animateDelay);
-        });
-    });
-
-    $('.back-to-screen3').click(function(e){
-        e.preventDefault();
-        var elem = $(this).parent();
-        $(elem).hide("slide", {direction: "right"}, animateDelay, function(){
-            $('.back-button').html('<p class="back-text">'+screen2sect+'</p>');
-            $('#screen-3').show("slide", {direction: "left"}, animateDelay);
-        })
-
-    });
-    $('.back-to-screen2').click(function(e){
-        e.preventDefault();
-        var elem = $(this).parent();
-        $(elem).hide("slide", {direction: "right"}, animateDelay, function(){
-            screen2sect = '';
-            $('#screen-2').show("slide", {direction: "left"}, animateDelay);
-        })
-
-    });
-
-    $('.info').click(function(e){
-        e.preventDefault();
-        $('.info-popup').show();
-    });
-    $('.close-popup').click(function(e){
-        e.preventDefault();
-        $('.info-popup').hide();
-    });
-});
-
-</script>
-
-
-
-
-
-<!-- Cordova awesomeness -->
-
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript">
-app.initialize();
-</script>
-
-
-
-
-
-</body></html>
+            <a class="nonblock nontext clearfix grpelem" id="u634-4" href="blockmenu.html">
+                <!-- content -->
+                <p id="u634-2">submit</p>
+            </a>
+            <div class="clip_frame grpelem" id="u1445">
+                <!-- image -->
+                <img class="block" id="u1445_img" src="images/logo.png" alt="" width="310" height="139"/>
+            </div>
+            <div class="verticalspacer"></div>
+        </div>
+        <div class="preload_images">
+            <img class="preload" src="images/u138-fne.png" alt=""/>
+            <img class="preload" src="images/u138-ferr.png" alt=""/>
+            <img class="preload" src="images/u138-r.png" alt=""/>
+            <img class="preload" src="images/u138-ff.png" alt=""/>
+            <img class="preload" src="images/u119-13-r.png" alt=""/>
+            <img class="preload" src="images/u119-13-m.png" alt=""/>
+            <img class="preload" src="images/u119-13-fs.png" alt=""/>
+            <img class="preload" src="images/u135-fs.png" alt=""/>
+            <img class="preload" src="images/u134-fse.png" alt=""/>
+            <img class="preload" src="images/u141-fss.png" alt=""/>
+        </div>
+        <!-- JS includes -->
+        <script type="text/javascript">
+            if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+        </script>
+        <script type="text/javascript">
+            window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+        </script>
+        <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
+        <script src="scripts/jquery.tobrowserwidth.js?152985095" type="text/javascript"></script>
+        <script src="scripts/webpro.js?33264525" type="text/javascript"></script>
+        <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
+        <!-- Other scripts -->
+        <script type="text/javascript">
+            $(document).ready(function() { try {
+            Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+            $('.browser_width').toBrowserWidth();/* browser width elements */
+            Muse.Utils.prepHyperlinks(true);/* body */
+            Muse.Utils.initWidget('#widgetu118', function(elem) { new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu118 */
+            Muse.Utils.fullPage('#page');/* 100% height page */
+            Muse.Utils.showWidgetsWhenReady();/* body */
+            Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+            } catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+        </script>
+    </body>
+</html>

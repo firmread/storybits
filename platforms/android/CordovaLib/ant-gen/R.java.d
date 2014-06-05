@@ -1,1 +1,1 @@
- : /Users/firmread/Sync/code/phonegap/storybits/platforms/android/CordovaLib/ant-build/AndroidManifest.xml \
+ : /Users/firmread/Desktop/storybits/platforms/android/CordovaLib/ant-build/AndroidManifest.xml \

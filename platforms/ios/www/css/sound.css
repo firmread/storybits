@@ -1,0 +1,264 @@
+@-ms-viewport
+{
+	width: 320px;
+}
+
+@-webkit-viewport
+{
+	width: 320px;
+}
+
+@-o-viewport
+{
+	width: 320px;
+}
+
+@-moz-viewport
+{
+	width: 320px;
+}
+
+@viewport
+{
+	width: 320px;
+}
+
+.html
+{
+	background-color: #50949F;
+}
+
+#page
+{
+	z-index: 1;
+	width: 320px;
+	min-height: 443px;
+	background-image: none;
+	border-style: none;
+	border-color: transparent;
+	background-color: #50949F;
+	padding-bottom: 17px;
+}
+
+#u2899
+{
+	z-index: 2;
+	width: 320px;
+	margin-right: -10000px;
+}
+
+#u2902
+{
+	z-index: 4;
+	width: 320px;
+	height: 143px;
+	margin-right: -10000px;
+}
+
+#u3111
+{
+	z-index: 5;
+	width: 283px;
+	margin-right: -10000px;
+	margin-top: 37px;
+	left: 28px;
+}
+
+#u2834
+{
+	z-index: 7;
+	width: 15px;
+	margin-right: -10000px;
+	margin-top: 33px;
+}
+
+#u2835
+{
+	z-index: 8;
+	width: 15px;
+	padding-bottom: 195px;
+	margin-right: -10000px;
+}
+
+#u2836
+{
+	z-index: 9;
+	width: 7px;
+	margin-right: -10000px;
+	margin-top: 200px;
+	left: 3px;
+}
+
+#u1813-4
+{
+	z-index: 11;
+	width: 218px;
+	min-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: muli, sans-serif;
+	font-weight: 300;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 95px;
+	left: 49px;
+}
+
+#u1008
+{
+	z-index: 15;
+	width: 53px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 36px;
+	left: 133px;
+}
+
+#pu1010
+{
+	z-index: 16;
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1010
+{
+	z-index: 0;
+	width: 53px;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+._u1010.f3s_top
+{
+	height: 53px;
+	background-image: url("../images/u1010-a-full.png");
+	background-position: left top;
+	width: 53px;
+}
+
+#pu1009
+{
+	width: 0.01px;
+	position: relative;
+	left: 11px;
+	padding-top: 10px;
+	z-index: 2;
+	padding-bottom: 9px;
+}
+
+#u1009
+{
+	z-index: 17;
+	width: 33px;
+	height: 33px;
+	border-style: none;
+	border-color: transparent;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/volume26-u1009-fr.png") no-repeat center center;
+	background-size: contain !important;
+}
+
+#u1009.MuseLinkActive
+{
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/volume26%20copy2-u1009-a-fr.png") no-repeat center center;
+	background-size: contain !important;
+}
+
+#u1011-3
+{
+	z-index: 18;
+	width: 280px;
+	min-height: 90px;
+	border-style: none;
+	border-color: transparent;
+	opacity: 0.95;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+	font-size: 11px;
+	line-height: 13px;
+	font-family: muli, sans-serif;
+	font-weight: 300;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 158px;
+	left: 19px;
+	background: #FFFFFF url("../images/stock-footage-audio-waveform-loop-u1011-3-fr.png") no-repeat center center;
+	background-color: rgba(255, 255, 255, 0.8);
+	background-size: cover !important;
+}
+
+#u1011
+{
+	padding: 7px 20px 10px;
+}
+
+#u4145
+{
+	z-index: 21;
+	width: 52px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 263px;
+	left: 132px;
+}
+
+#u1014
+{
+	z-index: 22;
+	width: 52px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1015
+{
+	z-index: 23;
+	width: 52px;
+	height: 51px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1018
+{
+	z-index: 24;
+	width: 20px;
+	height: 20px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #C1272D;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 15px;
+	left: 16px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

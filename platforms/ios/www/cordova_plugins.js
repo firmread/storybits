@@ -1,6 +1,13 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "file": "plugins/org.apache.cordova.device/www/device.js",
+        "id": "org.apache.cordova.device.device",
+        "clobbers": [
+            "device"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.camera/www/CameraConstants.js",
         "id": "org.apache.cordova.camera.Camera",
         "clobbers": [
@@ -26,20 +33,6 @@ module.exports = [
         "id": "org.apache.cordova.camera.CameraPopoverHandle",
         "clobbers": [
             "CameraPopoverHandle"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.media/www/MediaError.js",
-        "id": "org.apache.cordova.media.MediaError",
-        "clobbers": [
-            "window.MediaError"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.media/www/Media.js",
-        "id": "org.apache.cordova.media.Media",
-        "clobbers": [
-            "window.Media"
         ]
     },
     {
@@ -92,6 +85,20 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.media/www/MediaError.js",
+        "id": "org.apache.cordova.media.MediaError",
+        "clobbers": [
+            "window.MediaError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/Media.js",
+        "id": "org.apache.cordova.media.Media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file-transfer/www/FileTransferError.js",
         "id": "org.apache.cordova.file-transfer.FileTransferError",
         "clobbers": [
@@ -103,6 +110,13 @@ module.exports = [
         "id": "org.apache.cordova.file-transfer.FileTransfer",
         "clobbers": [
             "window.FileTransfer"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
+        "id": "org.apache.cordova.splashscreen.SplashScreen",
+        "clobbers": [
+            "navigator.splashscreen"
         ]
     },
     {
@@ -238,10 +252,12 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.camera": "0.2.9",
-    "org.apache.cordova.media": "0.2.10",
-    "org.apache.cordova.media-capture": "0.3.0",
-    "org.apache.cordova.file-transfer": "0.4.3",
+    "org.apache.cordova.device": "0.2.10-dev",
+    "org.apache.cordova.camera": "0.2.10-dev",
+    "org.apache.cordova.media-capture": "0.3.1-dev",
+    "org.apache.cordova.media": "0.2.11-dev",
+    "org.apache.cordova.file-transfer": "0.4.4-dev",
+    "org.apache.cordova.splashscreen": "0.3.0",
     "org.apache.cordova.file": "1.1.0"
 }
 // BOTTOM OF METADATA
