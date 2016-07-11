@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.4.30.244"/>
+  <title>sketch&#45; StoryBits</title>
+  <meta name="viewport" content="width=320"/>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?3983832653"/>
+  <link rel="stylesheet" type="text/css" href="css/master_header.css?191135978"/>
+  <link rel="stylesheet" type="text/css" href="css/master_bit.css?380930563"/>
+  <link rel="stylesheet" type="text/css" href="css/sketch.css?4129338242" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/muli:n3:all.js" type="text/javascript">\x3C/script>');
+</script>
+    <!--custom head HTML-->
+  
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+ </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu2899"><!-- group -->
+    <div class="clip_frame grpelem" id="u2899"><!-- image -->
+     <img class="block" id="u2899_img" src="images/tintm2.jpg" alt="" width="320" height="143"/>
+    </div>
+    <div class="browser_width grpelem" id="u2902"><!-- simple frame --></div>
+    <div class="clip_frame grpelem" id="u3111"><!-- image -->
+     <img class="block" id="u3111_img" src="images/redtri2.png" alt="" width="283" height="80"/>
+    </div>
+    <div class="clearfix grpelem" id="u2834"><!-- group -->
+     <div class="pointer_cursor clearfix grpelem" id="u2835"><!-- group -->
+      <a class="block" href="setting.html"></a>
+      <a class="nonblock nontext clip_frame grpelem" id="u2836" href="setting.html"><!-- image --><img class="block" id="u2836_img" src="images/arrow.png" alt="" width="7" height="14"/></a>
+     </div>
+    </div>
+    <div class="clearfix grpelem" id="u1831-4"><!-- content -->
+     <p>sketch</p>
+    </div>
+    <div class="clearfix grpelem" id="u1682"><!-- group -->
+     <div class="grpelem" id="pu1683"><!-- inclusion -->
+      <div id="u1683"><!-- simple frame -->
+       <div class="_u1683 f3s_top" id="_u1683-f3s_top"></div>
+      </div>
+      <div class="clearfix" id="pu1684"><!-- group -->
+       <div class="museBGSize grpelem" id="u1684"><!-- simple frame --></div>
+      </div>
+     </div>
+    </div>
+    <div class="grpelem" id="u1837"><!-- custom html -->
+     <script src="./scripts/processing.js"></script>
+<script type="text/processing" data-processing-target="processing-canvas">
+
+int colours[][]=new int[10][3]; 
+int position[][]=new int[10][2];
+int a;
+int b;
+int c;
+int radii=20;
+
+int d=1;
+ 
+void setup() {
+  size(270, 270);
+  colorMode(RGB);
+  smooth();
+  background(255);
+  frameRate(60);
+
+  noFill();
+  stroke(0);
+  strokeWeight(3);
+  rect(0, 0, 799, 479);
+
+  for (int i=0;i<10;i++) {
+    if (i%2==0) {
+      position[i][0]=50;
+    }
+    else {
+      position[i][0]=110;
+    }
+  }
+  position[0][1]=160;
+  position[1][1]=160;
+  position[2][1]=210;
+  position[3][1]=210;
+  position[4][1]=260;
+  position[5][1]=260;
+  position[6][1]=310;
+  position[7][1]=310;
+  position[8][1]=360;
+  position[9][1]=360;
+  //Add colour values in array
+  //Black
+  colours[0][0]=0;
+  colours[0][1]=0;
+  colours[0][2]=0;
+  //Grey
+  colours[1][0]=130;
+  colours[1][1]=130;
+  colours[1][2]=130;
+  //White
+  colours[2][0]=255;
+  colours[2][1]=255;
+  colours[2][2]=255;
+  //Red
+  colours[3][0]=255;
+  colours[3][1]=0;
+  colours[3][2]=0;
+  //Orange
+  colours[4][0]=255;
+  colours[4][1]=165;
+  colours[4][2]=0;
+  //Yellow
+  colours[5][0]=255;
+  colours[5][1]=255;
+  colours[5][2]=0;
+  //Green
+  colours[6][0]=0;
+  colours[6][1]=255;
+  colours[6][2]=0;
+  //Blue
+  colours[7][0]=0;
+  colours[7][1]=0;
+  colours[7][2]=255;
+  //Indigo
+  colours[8][0]=75;
+  colours[8][1]=0;
+  colours[8][2]=130;
+  //Violet
+  colours[9][0]=238;
+  colours[9][1]=130;
+  colours[9][2]=238;
+}
+void draw() {
+  //Call methods
+  toolbox();
+  colourPicker();
+  thickness();
+ 
+  //Drawing tool
+  if (mousePressed && (mouseButton == LEFT)) line(pmouseX, pmouseY, mouseX, mouseY);
+  //Eraser
+  if (mousePressed && (mouseButton == RIGHT)) {
+    fill(200);
+    stroke(200);
+    strokeWeight(7);
+    line(pmouseX, pmouseY, mouseX, mouseY);
+  }
+ 
+  //Draw current line thickness
+  fill(0);
+  stroke(0);
+  line(25, 436, 135, 436);
+  //Reset line thickness for drawing borders etc
+  strokeWeight(3);
+  //Clear background
+  if (keyPressed && key ==' ')clearBG();
+}
+ 
+//Reset Canvas method
+void clearBG() {
+  //Repaint background
+  fill(200);
+  stroke(0);
+  rect(0, 0, 799, 479);
+  //Reset colour chosen
+  stroke(a, b, c);
+  fill(a, b, c);
+}
+ 
+//Adjust pencil thickness method
+void thickness() {
+  if (keyPressed && key =='1') d=1; 
+  if (keyPressed && key =='2') d=3;
+  if (keyPressed && key =='3') d=5;
+  if (keyPressed && key =='4') d=7;
+  if (keyPressed && key =='5') d=9;
+  if (keyPressed && key == '6') d=11;
+  strokeWeight(d);
+}
+ 
+//Draw toolbox method
+void toolbox() {
+  //Panels
+  fill(60);
+  stroke(0);
+  rect(0, 0, 160, 479);
+  noFill();
+  rect(0, 0, 799, 479);
+
+  fill(0);
+  rect(9, 69, 142, 32);
+  line(0, 43, 160, 43);
+  line(0, 110, 160, 110);
+  line(0, 390, 160, 390);
+  noFill();
+  rect(9, 420, 142, 32);
+  //Colour palete
+  for (int i=0;i<10;i++) {
+    fill(colours[i][0], colours[i][1], colours[i][2]);
+    ellipse(position[i][0], position[i][1], 40, 40);
+  }
+  //Reset fill colour
+  fill(a, b, c);
+  //Current colour box
+  stroke(0);
+  rect(10, 70, 140, 30);
+  //Reset stroke colour
+  stroke(a, b, c);
+}
+ 
+ 
+void colourPicker() {
+  for (int i=0;i<10;i++) {
+    if ((dist(position[i][0], position[i][1], mouseX, mouseY)<radii)) {
+      fill(colours[i][0], colours[i][1], colours[i][2]);
+      stroke(0);
+      ellipse(position[i][0], position[i][1], 50, 50);
+      if (mousePressed && (mouseButton == LEFT)) {
+        a=colours[i][0];
+        b=colours[i][1];
+        c=colours[i][2];
+      }
+    }
+  }
+}
+
+</script>
+<canvas id="processing-canvas"> </canvas>
+</div>
+    <div class="clearfix grpelem" id="u2369"><!-- group -->
+     <div class="pointer_cursor MuseLinkActive rounded-corners clearfix grpelem" id="u2372"><!-- group -->
+      <a class="block" href="sketch.html"></a>
+      <a class="nonblock nontext MuseLinkActive clip_frame grpelem" id="u2370" href="sketch.html"><!-- image --><img class="block" id="u2370_img" src="images/camera44.png" alt="" width="30" height="30"/></a>
+     </div>
+    </div>
+   </div>
+   <div class="clip_frame grpelem" id="u2832"><!-- image -->
+    <img class="block" id="u2832_img" src="images/mountain.png" alt="" width="370" height="141"/>
+   </div>
+   <div class="verticalspacer"></div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="scripts/museutils.js?3880880085" type="text/javascript"></script>
+  <script src="scripts/jquery.tobrowserwidth.js?152985095" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?3899542795" type="text/javascript"></script>
+  <script src="scripts/jquery.watch.js?4199601726" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+$('.browser_width').toBrowserWidth();/* browser width elements */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>
